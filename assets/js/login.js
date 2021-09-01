@@ -38,6 +38,7 @@ $(function() {
     })
 
     $('#form_login').on('submit', function(e) {
+        console.log('login')
         e.preventDefault()
         $.ajax({
             url: '/api/login',
